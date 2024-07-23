@@ -12,7 +12,7 @@ body {
 .container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: auto;
 }
 
 .estrelas {
@@ -42,7 +42,7 @@ body {
 .cabecalho {
     z-index: 2;
     background-color: #F0F8FF;
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 6%;
     border-radius: 0 0 10px 10px;
@@ -54,7 +54,7 @@ nav {
     height: 6%;
     width: auto;
     border-radius: 4px;
-    position: absolute;
+    position: fixed;
     left: 0.5%;
 }
 
@@ -76,7 +76,7 @@ li {
     z-index: 4;
     position: absolute;
     width: 68%;
-    height: 130%;
+    height: 130vh;
     top: 15%;
     left: 26%;
     background-color: #FFB2AA;
@@ -86,7 +86,7 @@ li {
     z-index: 5;
     position: absolute;
     width: 30%;
-    height: 50%;
+    height: 50vh;
     top: 100%;
     left: 65%;
     background-color: #F9E7E7;
@@ -96,7 +96,7 @@ li {
     z-index: 5;
     position: absolute;
     width: 21%;
-    height: 60%;
+    height: 60vh;
     top: 30%;
     left: 11%;
     background-color: #F0F8FF;
@@ -106,7 +106,7 @@ li {
     z-index: 6;
     position: absolute;
     width: 18%;
-    height: 53%;
+    height: 53vh;
     top: 33.5%;
     left: 12.5%;
     background-color: #FFB2AA;
@@ -147,7 +147,7 @@ li {
     z-index: 7;
     position: absolute;
     width: 35%;
-    height: 53%;
+    height: 53vh;
     top: 101.7%;
     left: 65.8%;
     background-color: #FFB2AA;   
@@ -157,7 +157,7 @@ li {
     z-index: 5;
     position: absolute;
     width: 15.4%;
-    height: 0.8%;
+    height: 0.8vh;
     top: 145%;
     background-color: #000;
     border: 3px solid #000;
@@ -165,8 +165,8 @@ li {
 
 .CirculoCheio{
     z-index: 7;
-    position: absolute;
-    height: 15%;
+    position: fixed;
+    height: 15vh;
     width: 7%;
     top: 95%;
     left: 96.4%;
@@ -176,8 +176,8 @@ li {
 
 .CirculoAberto{
     z-index: 7;
-    position: absolute;
-    height: 30%;
+    position: fixed;
+    height: 30vh;
     width: 14%;
     top: 87.4%;
     left: 93%;
@@ -190,7 +190,7 @@ li {
     z-index: 4;
     position: absolute;
     width: 4%;
-    height: 45%;
+    height: 45vh;
     top: 59%;
     left: -1%;
     background-color: #FFB2AA; 
