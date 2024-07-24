@@ -19,9 +19,6 @@ body {
     z-index: 1;
     position: absolute;
     display: flex;
-}
-
-.estrelas span {
     width: 20px;
     height: 20px;
     background: #F0F8FF;
