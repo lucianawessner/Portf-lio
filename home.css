@@ -18,10 +18,6 @@ body {
 
 }
 
-.container::-webkit-scrollbar{
-    display: none;
-}
-
 .estrelas {
     z-index: 1;
     position: absolute;
