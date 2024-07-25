@@ -14,6 +14,7 @@ body {
     position: relative;
     width: 100%;
     height: auto;
+
 }
 
 /* .estrelas {
@@ -21,8 +22,8 @@ body {
     position: absolute;
     display: flex;
 }
- */
-/* .estrelas span {
+
+.estrelas span {
     width: 20px;
     height: 20px;
     background: #20282f;
