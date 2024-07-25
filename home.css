@@ -22,7 +22,7 @@ body {
     display: flex;
 }
 
-.estrelas span {
+/* .estrelas span {
     width: 20px;
     height: 20px;
     background: #20282f;
@@ -37,7 +37,7 @@ body {
     100% {
         transform: translateY(-10vh) scale(1);
     }
-}
+} */
 
 .cabecalho {
     z-index: 2;
