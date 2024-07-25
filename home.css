@@ -8,18 +8,68 @@ body {
     background-color: #F9E7E7;
     overflow-x: hidden;
     overflow-y: scroll;
-    height: 455vh;    
-}
+    height: 455vh;
+}    
 
 body::-webkit-scrollbar{
     display: none;
 }
+
 
 .container {
     position: relative;
     width: 100%;
     height: auto;
 
+}
+
+
+
+.estrelas {
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+
+}
+
+.estrelas span {
+    width: 20px;
+    height: 20px;
+    background: #20282f;
+    clip-path: polygon(50% 0%, 65% 35%, 100% 50%, 65% 65%, 50% 100%, 35% 65%, 0% 50%, 35% 35%);
+    animation: animar calc(190s / var(--i)) linear infinite;
+    bottom: -20px;
+    will-change: transform;
+}
+
+.estrelas span:nth-child(1) {
+    --i: 11;
+}
+.estrelas span:nth-child(2) {
+    --i: 17;
+}
+.estrelas span:nth-child(3) {
+    --i: 25;
+}
+.estrelas span:nth-child(4) {
+    --i: 14;
+}
+.estrelas span:nth-child(5) {
+    --i: 9;
+}
+
+@keyframes animar {
+    0% {
+        transform: translateY(100vh) scale(0);
+    }
+    100% {
+        transform: translateY(-10vh) scale(1);
+    }
 }
 
 .cabecalho {
