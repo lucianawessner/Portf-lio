@@ -16,12 +16,12 @@ body {
     height: auto;
 }
 
-.estrelas {
+/* .estrelas {
     z-index: 1;
     position: absolute;
     display: flex;
 }
-
+ */
 /* .estrelas span {
     width: 20px;
     height: 20px;
