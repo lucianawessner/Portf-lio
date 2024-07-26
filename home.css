@@ -24,25 +24,22 @@ body::-webkit-scrollbar{
 }
 
 
-
 .estrelas {
     z-index: 1;
     position: absolute;
     display: flex;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
     pointer-events: none;
 
 }
 
 .estrelas span {
-    width: 20px;
+    width: 40px;
     height: 20px;
-    background: #20282f;
+    background: #cfcfcf;
     clip-path: polygon(50% 0%, 65% 35%, 100% 50%, 65% 65%, 50% 100%, 35% 65%, 0% 50%, 35% 35%);
-    animation: animar calc(190s / var(--i)) linear infinite;
+    animation: animar calc(900s / var(--i)) linear infinite;
     bottom: -20px;
     will-change: transform;
 }
@@ -59,16 +56,13 @@ body::-webkit-scrollbar{
 .estrelas span:nth-child(4) {
     --i: 14;
 }
-.estrelas span:nth-child(5) {
-    --i: 9;
-}
 
-@keyframes animar {
+@keyframes animar {  
     0% {
-        transform: translateY(100vh) scale(0);
+        transform: translateY(456vh) scale(0);
     }
     100% {
-        transform: translateY(-10vh) scale(1);
+        transform: translateY(-37vh) scale(1);
     }
 }
 
@@ -205,6 +199,8 @@ li {
     left: 212.7vh;
     border-radius: 90vh;
     background-color: #000;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .CirculoAberto {
@@ -216,6 +212,8 @@ li {
     left: 205.2vh;
     border-radius: 90vh;
     border: 3px solid #000;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .QuadradoDireito{
@@ -240,7 +238,7 @@ li {
 .RetanguloBranco1 {
     z-index: 3;
     position: absolute;
-    width: 207vh;
+    width: 208.2vh;
     height: 80vh;
     top: 7vh;
     left: 7.3vh;
@@ -271,7 +269,7 @@ li {
 .RetanguloDentro {
     z-index: 4;
     position: absolute;
-    width: 202vh;
+    width: 203vh;
     height: 75.4vh;
     top: 9.3vh;
     left: 9.8vh;
@@ -281,7 +279,7 @@ li {
 .RetanguloRosaDentro {
     z-index: 5;
     position: absolute;
-    width: 197vh;
+    width: 198vh;
     height: 70.5vh;
     top: 11.7vh;
     left: 12.2vh;
@@ -307,6 +305,8 @@ li {
     left: -7vh;
     border-radius: 90vh;
     background-color: #000;
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .CirculoAberto1{
@@ -319,6 +319,8 @@ li {
     border-radius: 90vh;
     border: 3px solid #000;
     background-color: transparent #000;  
+    box-sizing: border-box;
+    max-width: 100%;
 }
 
 .Retangulos1{
@@ -371,17 +373,6 @@ li {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 .CirculoCheio2 {
     z-index: 2;
     position: absolute;
@@ -406,6 +397,49 @@ li {
     background-color: transparent #000;
 }
 
+.QuadradoInformacao {
+    z-index: 2;
+    position: absolute;
+    width: 35vh;
+    height: 35vh;
+    top: 133vh;
+    left: 18vh;
+    background-color: #f1f1f1;
+    border-radius: 0 100px 0px 100px;
+}
+
+.QuadradoInformacao1 {
+    z-index: 2;
+    position: absolute;
+    width: 35vh;
+    height: 35vh;
+    top: 133vh;
+    left: 69vh;
+    background-color: #f1f1f1;
+    border-radius: 0 100px 0px 100px;
+}
+
+.QuadradoInformacao2 {
+    z-index: 2;
+    position: absolute;
+    width: 35vh;
+    height:35vh;
+    top: 133vh;
+    left: 120vh;
+    background-color: #f1f1f1;
+    border-radius: 0 100px 0px 100px;
+}
+
+.QuadradoInformacao3 {
+    z-index: 2;
+    position: absolute;
+    width: 35vh;
+    height: 35vh;
+    top: 133vh;
+    left: 171vh;
+    background-color: #f1f1f1;
+    border-radius: 0 100px 0px 100px;
+}
 
 .Rodapé {
     z-index: 2;
