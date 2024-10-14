@@ -25,5 +25,7 @@ Animações e design responsivo
 <br>
 
 <div align="right">
-<img alt="Static Badge" src="https://img.shields.io/badge/Meu%20Portifolio%20-%20https%3A%2F%2Flucianawessner.github.io%2FPortf-lio%2F?style=social&logo=githubsponsors&logoColor=%23FF1493&color=%23F9E7E7">
+    <a href="https://lucianawessner.github.io/Portf-lio/">
+        <img alt="Link para o Portfólio" src="https://img.shields.io/badge/Link%20Portf%C3%B3lio%20-%20?style=for-the-badge&logo=github&logoColor=white&color=%23FF1493">
+    </a>
 </div>
